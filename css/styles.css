@@ -1,18 +1,60 @@
 
 
-h1 {margin-top: 0; margin-bottom: 0;}
+h1 {margin: 0; font-family: 'Dongle', sans-serif; font-size: 4rem; color: #11468F;}
 
-body   {margin-top: 0; margin-bottom: 0;text-align: center}
+h2 {margin:0; font-family: 'Dongle', sans-serif; font-weight: 400; font-size: 2.5rem; color: #11468F;}
 
-.game {font-style: italic; font-weight: bold;}
+h3 {margin:0; font-family: 'Dongle', sans-serif; font-weight: 400; font-size: 2.25rem; color: #64cfed;}
 
-.top-container {background-color: #E3FDFD; padding-top: 150px; position: relative; height: 1010px;
-    width: 100%;
-}
+p {margin:0; font-family: 'Dongle', sans-serif; font-weight: 400; font-size: 2rem}
 
-.ace {position: absolute; text-align: center; display: block;}
+a {margin:0; font-family: 'Dongle', sans-serif; font-weight: 400; font-size: 2rem; color: #11468F;}
 
-.pubg {position: relative; text-align: center; bottom: 26px;max-width: 100%;
+body {margin: 0; text-align:center;}
+
+hr {border-style: none; border-top-style:dotted; border-color: #C9D1D3;width: 20%; border-top-width: thick;margin:75px auto}
+
+.wing {font-size: 2.1875rem}
+.a {font-weight: 300;}
+.gamer {font-style: italic;}
+
+.top-container {background-color: #E3FDFD; padding-top: 180px;
+display: block;}
+
+.ace {position: relative; max-width: 40%;
 max-height: 100%;
-display: block;
+margin: 0 auto ;}
+
+.pubg {position: relative;max-width: 100%; top: 25px;
+max-height: 100%;
 margin: 0 auto;}
+
+.middle-container {padding-bottom:100px}
+.profile {width:50% ;margin: 50px auto; line-height:1.1}
+.skill-row {width:50%;margin: 50px auto;text-align:left; line-height: 1.1}
+.headshot {background-color: #EEEEEE; border-radius: 80%; width: 35%; margin: 50px auto;}
+.dp {float: left; margin-right:30px;height:10%;}
+
+.mini {float: right; margin-left:30px;height:10%;}
+
+.bottom-container {padding-top: 20px;background-color:#64cfed;}
+.btn {
+  -webkit-border-radius: 46;
+    -moz-border-radius: 46;
+    border-radius: 46px;
+    text-shadow: 1px 1px 3px #574057;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    background: #145374;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #6A99CB;
+    text-decoration: none;
+  }
+
+.footer {font-size: 2rem}
+.wing-small {font-size: 1.5rem}
